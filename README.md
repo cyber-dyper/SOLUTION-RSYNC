@@ -153,24 +153,61 @@ chmod +x backup_inc.sh
 
 `restore_dif.sh`
 
-## 🧪 Tester les Scénarios de Sauvegarde et Restauration
+## 🧪 **Tester les Scénarios de Sauvegarde et Restauration**
 
-### 🌀 Exécuter la Sauvegarde Incrémentale
+Pour exécuter les scripts de sauvegarde et de restauration, tu as deux options : utiliser la commande `bash` ou exécuter directement le script avec `./`. 
+
+Assure-toi d'abord que tes scripts sont bien exécutables :
+
+```bash
+chmod +x /home/cyberdyper/scripts/*.sh
+```
+### 🌀 Sauvegarde Incrémentale
+
+- Méthode 1 : Avec bash
+
 ```bash
 bash /home/cyberdyper/scripts/backup_inc.sh
 ```
+
+- Méthode 2 : En exécutant directement le script
+
+```bash
+cd /home/cyberdyper/scripts
+./backup_inc.sh
+```
+
 ### 🔄 Exécuter la Sauvegarde Différentielle
+
 ```bash
 bash /home/cyberdyper/scripts/backup_dif.sh
 ```
+ou
+```bash
+./backup_dif.sh
+```
+
 ### 🛠️ Lancer la Restauration Incrémentale
+
 ```bash
 bash /home/cyberdyper/scripts/restore_inc.sh all latest
 ```
+ou
+```bash
+./restore_inc.sh all latest
+```
+
 ### 💽 Lancer la Restauration Différentielle
+
 ```bash
 bash /home/cyberdyper/scripts/restore_dif.sh
 ```
+ou
+```bash
+./restore_dif.sh
+```
+
+💡 Astuce : Utiliser la méthode `./script.sh` est particulièrement pratique lorsque tu te trouves déjà dans le dossier des scripts (`cd /home/cyberdyper/scripts`).
 
 ## 📚 **Ressources Utiles**
 
