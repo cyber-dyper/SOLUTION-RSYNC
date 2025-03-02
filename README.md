@@ -132,7 +132,7 @@ cd /home/cyberdyper/scripts
 ```
 
 2. Créer chaque script avec un éditeur de texte (nano, vim, etc.). Nous allons utilser nano ici:
-  👉 Tu pourras retourver la liste des commandes shell comme `nano` dans mon autre dépôt SHELL-COMMANDS.
+  👉 Tu pourras retourver la liste des commandes shell comme `nano` dans mon autre dépôt [SHELL-COMMANDS](https://github.com/cyber-dyper/SHELL-COMMANDS).
 ```bash
 nano backup_inc.sh
 ```
