@@ -26,7 +26,7 @@ Ce projet te permettra de mettre en œuvre une solution complète de **sauvegard
 Avant de commencer, assure-toi d'avoir :
 
 - **VirtualBox** installé sur ton système.  
-  👉 Consulte le dépôt [VIRTUAL-LAB](https://github.com/ton-compte/VIRTUAL-LAB) pour apprendre à installer et utiliser VirtualBox.
+  👉 Consulte le dépôt [VIRTUAL-LAB](https://github.com/cyber-dyper/VIRTUAL-LAB) pour apprendre à installer et utiliser VirtualBox.
 
 - Pour ce porjet les versions **serveur** ou **non-bureautique** sont préférables pour éviter de surcharger tes ressources système.  
   👉 Accède aux distributions Linux officielles :  
@@ -34,7 +34,7 @@ Avant de commencer, assure-toi d'avoir :
   - [Ubuntu Server](https://ubuntu.com/download/server)
  
 - Les **distributions Linux bureau** si tu préfères pour créer les VMs de test.  
-  👉 Toutes les distributions recommandées sont disponibles dans le dépôt [GNU-LINUX](https://github.com/ton-compte/GNU-LINUX).
+  👉 Toutes les distributions recommandées sont disponibles dans le dépôt [GNU-LINUX](https://github.com/cyber-dyper/GNU-LINUX).
 
   
 - L'accès à un terminal avec `rsync` installé sur chaque machine virtuelle (déjà installé sur la plupart des distributions Linux).
@@ -171,11 +171,14 @@ bash /home/cyberdyper/scripts/restore_inc.sh all latest
 ```bash
 bash /home/cyberdyper/scripts/restore_dif.sh
 ```
-## 📚 Ressources Utiles
 
-🌍 rsync - Documentation officielle
-💻 VIRTUAL-LAB - Crée ton laboratoire virtuel
-📁 GNU-LINUX - Détails sur les distributions
-🛠️ Télécharger Debian Server
-🛠️ Télécharger Ubuntu Server
+## 📚 **Ressources Utiles**
+
+- 🌍 [rsync - Documentation officielle](https://download.samba.org/pub/rsync/rsync.html)
+- 💻 [VIRTUAL-LAB - Crée ton laboratoire virtuel](https://github.com/cyber-dyper/VIRTUAL-LAB)
+- 📁 [GNU-LINUX - Détails sur les distributions](https://github.com/cyber-dyper/GNU-LINUX)
+- 🛠️ [Télécharger Debian Server](https://www.debian.org/distrib)
+- 🛠️ [Télécharger Ubuntu Server](https://ubuntu.com/download/server)
+
+
 ✨ Automatise tes sauvegardes comme un pro et dors sur tes deux oreilles ! 🚀😊
